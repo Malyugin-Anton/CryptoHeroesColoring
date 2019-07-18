@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Malyugin-Anton",
+  "description": "Coloring for the characters of the game",
   "license": "MIT",
   "scripts": {
     "build": "webpack --progress",
