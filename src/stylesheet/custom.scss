@@ -1,0 +1,63 @@
+.custom-slider-characters {
+  .uk-panel {
+    background: #000;
+    max-width: 250px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin: 0 auto 20px auto;
+    cursor: pointer;
+    transition: all .3s;
+    box-shadow: 0 12px 19px rgba(0, 0, 0, 0.4);
+    text-align: center;
+
+    img {
+      transition: all .3s;
+    }
+
+    &:hover {
+      box-shadow: 0 12px 19px rgba(0, 0, 0, 0);
+      img {
+        transform: scale(.95);
+      }
+    }
+  }
+}
+
+.custom-form {
+
+  &__heading {
+    color: #fff;
+  }
+
+  &__item {
+    margin-bottom: 10px;
+  }
+
+  .uk-tile {
+    position: relative;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .uk-h4 {
+    margin: 0;
+    z-index: 2;
+  }
+
+  input {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    z-index: 1;
+    padding: 0;
+    background: #222222;
+  }
+}
